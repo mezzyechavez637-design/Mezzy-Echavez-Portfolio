@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="color-scheme" content="dark light"><meta name="theme-color" content="#09090b">
+  <meta name="description" content="Selected web, networking, animation, and design projects by Mezzy Echavez."><title>Projects — Mezzy Echavez</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&display=swap" rel="stylesheet">
+  <script>(function(d){var r=d.documentElement,t="dark";r.classList.add("js");try{if(localStorage.getItem("mezzy-portfolio-theme-v1")==="light")t="light"}catch(e){}r.dataset.theme=t})(document)</script>
+  <link rel="stylesheet" href="styles.css"><script src="assets/js/data.js" defer></script><script src="script.js" defer></script>
+</head>
+<body data-page="projects">
+  <div class="bg-slider" aria-hidden="true">
+    <div class="bg-track">
+      <div class="bg-slide bg-slide-1"></div>
+      <div class="bg-slide bg-slide-2"></div>
+      <div class="bg-slide bg-slide-3"></div>
+      <div class="bg-slide bg-slide-1"></div>
+    </div>
+    <div class="bg-overlay"></div>
+  </div>
+  <a class="skip-link" href="#main">Skip to content</a><div class="grain" aria-hidden="true"></div>
+  <header class="site-header" id="site-header"><div class="shell site-header-inner">
+    <a class="brand" href="index.html" aria-label="Mezzy Echavez home"><span class="brand-mark" aria-hidden="true">M<span>E</span></span><span class="brand-copy"><strong>Mezzy Echavez</strong><small>builder · learner · curious</small></span></a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-nav" aria-label="Open navigation"><span></span><span></span></button>
+    <nav class="site-nav" aria-label="Main navigation"><ul id="primary-nav"><li><a href="index.html">Home</a></li><li><a href="about.html">About</a></li><li><a href="skills.html">Skills</a></li><li><a href="projects.html" aria-current="page">Projects</a></li><li><a href="resume.html">Resume</a></li><li><button class="theme-toggle" type="button" aria-label="Switch to light mode" aria-pressed="false"><span class="theme-icon" aria-hidden="true">◐</span><span data-theme-label>Light</span></button></li><li><a class="nav-cta" href="contact.html">Contact <span aria-hidden="true">↗</span></a></li></ul></nav>
+  </div></header>
+
+  <main id="main" class="page-main inner-main projects-main">
+    <div class="page-heading shell reveal"><div><p class="eyebrow">PROJECTS <span class="eyebrow-line"></span> CLASS &amp; PERSONAL</p><h1>Featured <em>projects.</em></h1></div><p class="heading-aside">Websites, designs, and network builds. Open a card to read the story and the lessons behind it.</p></div>
+    <section class="projects-workspace shell">
+      <div class="project-toolbar panel reveal">
+        <label class="search-field"><span aria-hidden="true">⌕</span><span class="sr-only">Search projects</span><input type="search" id="project-search" placeholder="Search projects or tools…" autocomplete="off"></label>
+        <label class="select-field"><span class="sr-only">Filter projects by category</span><select id="project-category"><option value="all">All areas</option><option value="web">Web</option><option value="networking">Networking</option><option value="designs">Designs</option></select></label>
+        <label class="select-field"><span class="sr-only">Filter projects by status</span><select id="project-status"><option value="all">Any status</option><option value="completed">Completed</option><option value="ongoing">Ongoing</option></select></label>
+        <button class="clear-button" id="clear-project-filters" type="button">Clear <span aria-hidden="true">↺</span></button>
+      </div>
+      <div class="projects-count" aria-live="polite"><span><b id="project-count">5</b> projects</span><span class="summary-note">Things I’ve made along the way <span aria-hidden="true">✳</span></span></div>
+      <div class="project-grid" id="project-grid">
+        <article class="project-card panel reveal" data-project-card data-category="web" data-status="completed" data-search="figma canva web design interface layout ui ux">
+          <div class="project-image-wrap"><img src="assets/images/kiosktogo-pos.jpg" width="1100" height="531" decoding="async" alt="Web interface design with menu items beside an order summary" loading="lazy"><span class="project-year">2025</span></div>
+          <div class="project-card-copy"><div class="project-card-meta"><span>WEB · COMPLETED</span><span class="status-dot"></span></div><h2>Figma/Canva Web Design</h2><p>A clean, easy-to-use web interface design.</p>
+            <details class="project-details"><summary>Read the story <span aria-hidden="true">＋</span></summary><div class="details-copy"><p>A web design project focused on layout, spacing, and clear steps, so a first-time visitor can understand the screen without instructions.</p><div class="tag-row"><span>Figma</span><span>Canva</span><span>UI/UX Design</span></div><p class="learned-note"><b>Takeaway:</b> Clear layouts matter more than extra features.</p></div></details>
+          </div>
+        </article>
+        <article class="project-card panel reveal" data-project-card data-category="networking" data-status="completed" data-search="network layout design cisco packet tracer router switch topology networking ip addressing">
+          <div class="project-image-wrap"><img src="assets/images/cisco-packet-tracer.jpg" width="1200" height="655" decoding="async" alt="Cisco Packet Tracer topology with star, ring, and bus network segments linked by routers" loading="lazy"><span class="project-year">2025</span></div>
+          <div class="project-card-copy"><div class="project-card-meta"><span>NETWORKING · COMPLETED</span><span class="status-dot"></span></div><h2>Network Layout Design</h2><p>A structured multi-device network built and tested in Cisco Packet Tracer.</p>
+            <details class="project-details"><summary>Read the story <span aria-hidden="true">＋</span></summary><div class="details-copy"><p>A simulated network with routers, switches, and end devices, planned and tested until every segment could connect.</p><div class="tag-row"><span>Cisco Packet Tracer</span><span>Networking</span><span>IP Addressing</span></div><p class="learned-note"><b>Takeaway:</b> Plan the addressing first. Debugging a bad plan costs more than making a good one.</p></div></details>
+          </div>
+        </article>
+        <article class="project-card panel reveal" data-project-card data-category="designs" data-status="completed" data-search="2d animation adobe animate visual storytelling timing movement">
+          <div class="project-image-wrap"><img src="assets/images/animate-project.jpg" width="1000" height="545" decoding="async" alt="Animated short project artwork showing a hand-drawn character beside a colorful mobile game scene" loading="lazy"><span class="project-year">2025</span></div>
+          <div class="project-card-copy"><div class="project-card-meta"><span>DESIGNS · COMPLETED</span><span class="status-dot"></span></div><h2>2D Animation</h2><p>A short animation exploring movement, timing, and visual storytelling.</p>
+            <details class="project-details"><summary>Read the story <span aria-hidden="true">＋</span></summary><div class="details-copy"><p>A 2D animation project practicing timing, movement, and keeping a scene easy to follow.</p><div class="tag-row"><span>2D Animation</span><span>Adobe Animate</span></div><p class="learned-note"><b>Takeaway:</b> Timing is half of the story.</p><a class="inline-link" href="https://www.facebook.com/share/v/1A2hfbajcm/" target="_blank" rel="noreferrer">Watch the video <span aria-hidden="true">↗</span></a></div></details>
+          </div>
+        </article>
+        <article class="project-card panel reveal" data-project-card data-category="networking" data-status="completed" data-search="cisco packet tracer network router switch simulation networking">
+          <div class="project-image-wrap"><img src="assets/images/illustrator-project.jpg" width="946" height="678" decoding="async" alt="Network illustration with connected devices" loading="lazy"><span class="project-year">2025</span></div>
+          <div class="project-card-copy"><div class="project-card-meta"><span>NETWORKING · COMPLETED</span><span class="status-dot"></span></div><h2>Cisco Packet Tracer</h2><p>A simulated network built, configured, and tested in Cisco Packet Tracer.</p>
+            <details class="project-details"><summary>Read the story <span aria-hidden="true">＋</span></summary><div class="details-copy"><p>A Cisco Packet Tracer project where routers, switches, and end devices are connected, configured, and tested until everything can communicate.</p><div class="tag-row"><span>Cisco Packet Tracer</span><span>Networking</span></div><p class="learned-note"><b>Takeaway:</b> Testing every connection early saves hours of debugging later.</p></div></details>
+          </div>
+        </article>
+        <article class="project-card panel reveal" data-project-card data-category="web" data-status="ongoing" data-search="portfolio website html css javascript data theme search filters contact multi page">
+          <div class="project-image-wrap"><img src="assets/images/home.jpg" width="900" height="1257" decoding="async" data-focus="top" alt="Mezzy Echavez portfolio" style="object-position:50% 22%" loading="lazy"><span class="project-year">2026</span></div>
+          <div class="project-card-copy"><div class="project-card-meta"><span>WEB · ONGOING</span><span class="status-dot status-dot-live"></span></div><h2>Personal Portfolio Website</h2><p>A clean monochrome portfolio with searchable work, a dark/light switch, and a practical contact flow.</p>
+            <details class="project-details"><summary>Read the story <span aria-hidden="true">＋</span></summary><div class="details-copy"><p>Built with plain HTML, CSS, and JavaScript, with a sliding photo background, animations, and click effects.</p><div class="tag-row"><span>HTML</span><span>CSS</span><span>JavaScript</span></div><p class="learned-note"><b>Takeaway:</b> A static site can still feel thoughtful and interactive.</p></div></details>
+          </div>
+        </article>
+      </div>
+      <p class="empty-state panel" id="project-empty" hidden>No matching projects. Try a different word or clear the filters.</p>
+    </section>
+  </main>
+
+</body>
+</html>
