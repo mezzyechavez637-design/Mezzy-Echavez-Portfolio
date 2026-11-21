@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="dark light"><meta name="theme-color" content="#09090b">
+  <meta name="description" content="Mezzy Echavez — third-year BSIT student, front-end builder, and curious learner from Negros Oriental.">
+  <title>Home — Mezzy Echavez</title>
+  <script>(function(d){var r=d.documentElement,t="dark";r.classList.add("js");try{if(localStorage.getItem("mezzy-portfolio-theme-v1")==="light")t="light"}catch(e){}r.dataset.theme=t})(document)</script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="assets/js/data.js" defer></script>
+  <script src="script.js" defer></script>
+</head>
+<body data-page="home">
+  <div class="bg-slider" aria-hidden="true">
+    <div class="bg-track">
+      <div class="bg-slide bg-slide-1"></div>
+      <div class="bg-slide bg-slide-2"></div>
+      <div class="bg-slide bg-slide-3"></div>
+      <div class="bg-slide bg-slide-1"></div>
+    </div>
+    <div class="bg-overlay"></div>
+  </div>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="grain" aria-hidden="true"></div>
+  <header class="site-header" id="site-header"><div class="shell site-header-inner">
+    <a class="brand" href="index.html" aria-label="Mezzy Echavez home"><span class="brand-mark" aria-hidden="true">M<span>E</span></span><span class="brand-copy"><strong>Mezzy Echavez</strong><small>builder · learner · curious</small></span></a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-nav" aria-label="Open navigation"><span></span><span></span></button>
+    <nav class="site-nav" aria-label="Main navigation">
+      <ul id="primary-nav">
+        <li><a href="index.html" aria-current="page">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="skills.html">Skills</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="resume.html">Resume</a></li>
+        <li><button class="theme-toggle" type="button" aria-label="Switch to light mode" aria-pressed="false"><span class="theme-icon" aria-hidden="true">◐</span><span data-theme-label>Light</span></button></li>
+        <li><a class="nav-cta" href="contact.html">Contact <span aria-hidden="true">↗</span></a></li>
+      </ul>
+    </nav>
+  </div></header>
+
+  <main id="main" class="page-main home-main">
+    <section class="home-hero shell">
+      <div class="hero-copy reveal">
+        <p class="eyebrow"><span class="eyebrow-dot"></span> NEGOR ORIENTAL, PHILIPPINES <span class="eyebrow-line"></span> OPEN TO INTERNSHIPS</p>
+        <h1><span class="greet" data-greet>Hello, I’m</span><br><span class="hero-name">Mezzy</span></h1>
+        <p class="hero-lede">I design and build clean, practical web pages, and I love explaining how they work. I learn best by building, breaking, and fixing.</p>
+        <div class="role-note"><span class="role-led" aria-hidden="true"></span><span class="sr-only">A third-year BSIT student and front-end web developer.</span><span class="role-text" data-role-text aria-hidden="true">BSIT Student at NORSU</span><span class="role-caret" aria-hidden="true"></span></div>
+        <div class="hero-actions">
+          
+          
+          <button class="button portrait-move-button" type="button" data-portrait-move aria-pressed="false" aria-controls="hero-portrait"><span aria-hidden="true">←</span><span data-portrait-label>Move photo left</span></button>
+        </div>
+        <p class="hero-footnote"><span aria-hidden="true">↳</span> Small steps. Real projects. Always learning.</p>
+      </div>
+
+      <div class="hero-visual reveal" id="hero-portrait">
+        <div class="portrait-backdrop" aria-hidden="true"></div>
+        <figure class="portrait-window"><img src="assets/images/home.jpg" alt="Mezzy Echavez" decoding="async" style="width:100%;height:100%;object-fit:cover;object-position:50% 22%">
+          
+          <span class="portrait-label"><i aria-hidden="true"></i>now building</span>
+        </figure>
+      </div>
+    </section>
+
+    <section class="home-lower shell reveal" aria-label="Portfolio snapshot">
+      <div class="home-stats">
+        <div class="stat-item"><strong data-count="5">5</strong><span>Projects built</span></div>
+        <div class="stat-item"><strong data-count="9">9</strong><span>Tools practiced</span></div>
+        <div class="stat-item"><strong data-count="3">3</strong><span>Years in IT</span></div>
+        <div class="stat-coffee"><span class="coffee-stamp" aria-hidden="true">☕</span><span><b>Always creating</b><br>one cup at a time</span></div>
+      </div>
+      <div class="home-strip"><span class="strip-label">MY MOTTO</span><span class="strip-rule"></span><p>Make it work. Make it clear. Make it better.</p></div>
+    </section>
+  <div class="marquee" aria-hidden="true"><div class="marquee-track"><span>Web Development</span><span>UI Design</span><span>Networking</span><span>Animation</span><span>Databases</span><span>Cisco Packet Tracer</span><span>Web Development</span><span>UI Design</span><span>Networking</span><span>Animation</span><span>Databases</span><span>Cisco Packet Tracer</span></div></div>
+  </main>
+
+</body>
+</html>
