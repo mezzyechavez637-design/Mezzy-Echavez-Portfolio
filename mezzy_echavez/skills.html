@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="color-scheme" content="dark light"><meta name="theme-color" content="#09090b">
+  <meta name="description" content="Mezzy Echavez's self-rated web, programming, database, design, and networking skills."><title>Skills — Mezzy Echavez</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&display=swap" rel="stylesheet">
+  <script>(function(d){var r=d.documentElement,t="dark";r.classList.add("js");try{if(localStorage.getItem("mezzy-portfolio-theme-v1")==="light")t="light"}catch(e){}r.dataset.theme=t})(document)</script>
+  <link rel="stylesheet" href="styles.css"><script src="assets/js/data.js" defer></script><script src="script.js" defer></script>
+</head>
+<body data-page="skills">
+  <div class="bg-slider" aria-hidden="true">
+    <div class="bg-track">
+      <div class="bg-slide bg-slide-1"></div>
+      <div class="bg-slide bg-slide-2"></div>
+      <div class="bg-slide bg-slide-3"></div>
+      <div class="bg-slide bg-slide-1"></div>
+    </div>
+    <div class="bg-overlay"></div>
+  </div>
+  <a class="skip-link" href="#main">Skip to content</a><div class="grain" aria-hidden="true"></div>
+  <header class="site-header" id="site-header"><div class="shell site-header-inner">
+    <a class="brand" href="index.html" aria-label="Mezzy Echavez home"><span class="brand-mark" aria-hidden="true">M<span>E</span></span><span class="brand-copy"><strong>Mezzy Echavez</strong><small>builder · learner · curious</small></span></a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-nav" aria-label="Open navigation"><span></span><span></span></button>
+    <nav class="site-nav" aria-label="Main navigation"><ul id="primary-nav"><li><a href="index.html">Home</a></li><li><a href="about.html">About</a></li><li><a href="skills.html" aria-current="page">Skills</a></li><li><a href="projects.html">Projects</a></li><li><a href="resume.html">Resume</a></li><li><button class="theme-toggle" type="button" aria-label="Switch to light mode" aria-pressed="false"><span class="theme-icon" aria-hidden="true">◐</span><span data-theme-label>Light</span></button></li><li><a class="nav-cta" href="contact.html">Contact <span aria-hidden="true">↗</span></a></li></ul></nav>
+  </div></header>
+
+  <main id="main" class="page-main inner-main skills-main">
+    <div class="page-heading shell reveal"><div><p class="eyebrow">TOOLS &amp; SKILLS <span class="eyebrow-line"></span> LEARN · PRACTICE · REPEAT</p><h1>My <em>skill set.</em></h1></div><p class="heading-aside">Honest self-ratings: a snapshot of today, not a limit on tomorrow.</p></div>
+    <section class="skills-workspace shell">
+      <div class="skills-toolbar panel reveal">
+        <div class="filter-group" role="group" aria-label="Filter skills by category"><button class="filter-chip is-active" type="button" data-skill-filter="all" aria-pressed="true">All <span>9</span></button><button class="filter-chip" type="button" data-skill-filter="web" aria-pressed="false">Web</button><button class="filter-chip" type="button" data-skill-filter="design" aria-pressed="false">Design</button><button class="filter-chip" type="button" data-skill-filter="networking" aria-pressed="false">Networking</button></div>
+        <label class="sort-control" for="skill-sort"><span>Sort</span><select id="skill-sort"><option value="default">Default</option><option value="highest">Highest level</option><option value="alphabetical">A to Z</option></select></label>
+      </div>
+      <div class="skills-summary" aria-live="polite"><span><b id="skill-count">9</b> skills shown</span><span class="summary-note"><span aria-hidden="true">◌</span> Self-rated, not formally assessed</span></div>
+      <div class="skill-grid" id="skill-grid">
+        <article class="skill-card panel reveal" data-skill-card data-category="web" data-name="HTML5 & CSS3" data-level="85"><div class="skill-card-top"><span class="skill-category">WEB / 01</span><span class="skill-percent">85%</span></div><h2>HTML5 &amp; CSS3</h2><div class="skill-meter" role="progressbar" aria-label="HTML5 and CSS3 self-rated level" aria-valuemin="0" aria-valuemax="100" aria-valuenow="85"><span style="width:85%"></span></div><p>Clean page structure, tidy styling, and layouts that adapt to any screen.</p></article>
+        <article class="skill-card panel reveal" data-skill-card data-category="web" data-name="JavaScript" data-level="60"><div class="skill-card-top"><span class="skill-category">WEB / 02</span><span class="skill-percent">60%</span></div><h2>JavaScript</h2><div class="skill-meter" role="progressbar" aria-label="JavaScript self-rated level" aria-valuemin="0" aria-valuemax="100" aria-valuenow="60"><span style="width:60%"></span></div><p>Making pages interactive: menus, filters, forms, and small animations.</p></article>
+        <article class="skill-card panel reveal" data-skill-card data-category="web" data-name="Bootstrap" data-level="70"><div class="skill-card-top"><span class="skill-category">WEB / 03</span><span class="skill-percent">70%</span></div><h2>Bootstrap</h2><div class="skill-meter" role="progressbar" aria-label="Bootstrap self-rated level" aria-valuemin="0" aria-valuemax="100" aria-valuenow="70"><span style="width:70%"></span></div><p>Building responsive layouts quickly with ready-made components.</p></article>
+        <article class="skill-card panel reveal" data-skill-card data-category="web" data-name="Responsive Web Design" data-level="80"><div class="skill-card-top"><span class="skill-category">WEB / 04</span><span class="skill-percent">80%</span></div><h2>Responsive Web Design</h2><div class="skill-meter" role="progressbar" aria-label="Responsive Web Design self-rated level" aria-valuemin="0" aria-valuemax="100" aria-valuenow="80"><span style="width:80%"></span></div><p>Pages that look right on phones, tablets, and computers.</p></article>
+        <article class="skill-card panel reveal" data-skill-card data-category="design" data-name="UI/UX Design" data-level="65"><div class="skill-card-top"><span class="skill-category">DESIGN / 05</span><span class="skill-percent">65%</span></div><h2>UI/UX Design</h2><div class="skill-meter" role="progressbar" aria-label="UI/UX Design self-rated level" aria-valuemin="0" aria-valuemax="100" aria-valuenow="65"><span style="width:65%"></span></div><p>Clear layouts, readable spacing, and screens that make sense at first glance.</p></article>
+        <article class="skill-card panel reveal" data-skill-card data-category="design" data-name="Figma & Canva" data-level="75"><div class="skill-card-top"><span class="skill-category">DESIGN / 06</span><span class="skill-percent">75%</span></div><h2>Figma &amp; Canva</h2><div class="skill-meter" role="progressbar" aria-label="Figma and Canva self-rated level" aria-valuemin="0" aria-valuemax="100" aria-valuenow="75"><span style="width:75%"></span></div><p>Planning and designing web pages and graphics before building them.</p></article>
+        <article class="skill-card panel reveal" data-skill-card data-category="networking" data-name="Cisco Packet Tracer" data-level="70"><div class="skill-card-top"><span class="skill-category">NETWORKING / 07</span><span class="skill-percent">70%</span></div><h2>Cisco Packet Tracer</h2><div class="skill-meter" role="progressbar" aria-label="Cisco Packet Tracer self-rated level" aria-valuemin="0" aria-valuemax="100" aria-valuenow="70"><span style="width:70%"></span></div><p>Building, configuring, and testing simulated networks.</p></article>
+        <article class="skill-card panel reveal" data-skill-card data-category="design" data-name="2D Animation" data-level="60"><div class="skill-card-top"><span class="skill-category">DESIGN / 08</span><span class="skill-percent">60%</span></div><h2>2D Animation</h2><div class="skill-meter" role="progressbar" aria-label="2D Animation self-rated level" aria-valuemin="0" aria-valuemax="100" aria-valuenow="60"><span style="width:60%"></span></div><p>Timing and movement that keep a scene easy to follow.</p></article>
+        <article class="skill-card panel reveal" data-skill-card data-category="networking" data-name="Network Layout Design" data-level="65"><div class="skill-card-top"><span class="skill-category">NETWORKING / 09</span><span class="skill-percent">65%</span></div><h2>Network Layout Design</h2><div class="skill-meter" role="progressbar" aria-label="Network Layout Design self-rated level" aria-valuemin="0" aria-valuemax="100" aria-valuenow="65"><span style="width:65%"></span></div><p>Planning and testing connected devices in a simulated network.</p></article>
+      </div>
+    </section>
+  </main>
+
+</body>
+</html>
