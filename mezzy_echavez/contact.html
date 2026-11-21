@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="color-scheme" content="dark light"><meta name="theme-color" content="#09090b">
+  <meta name="description" content="Contact Mezzy Echavez about internships, project ideas, collaborations, or opportunities."><title>Contact — Mezzy Echavez</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&display=swap" rel="stylesheet">
+  <script>(function(d){var r=d.documentElement,t="dark";r.classList.add("js");try{if(localStorage.getItem("mezzy-portfolio-theme-v1")==="light")t="light"}catch(e){}r.dataset.theme=t})(document)</script>
+  <link rel="stylesheet" href="styles.css"><script src="assets/js/data.js" defer></script><script src="script.js" defer></script>
+</head>
+<body data-page="contact">
+  <div class="bg-slider" aria-hidden="true">
+    <div class="bg-track">
+      <div class="bg-slide bg-slide-1"></div>
+      <div class="bg-slide bg-slide-2"></div>
+      <div class="bg-slide bg-slide-3"></div>
+      <div class="bg-slide bg-slide-1"></div>
+    </div>
+    <div class="bg-overlay"></div>
+  </div>
+  <a class="skip-link" href="#main">Skip to content</a><div class="grain" aria-hidden="true"></div>
+  <header class="site-header" id="site-header"><div class="shell site-header-inner">
+    <a class="brand" href="index.html" aria-label="Mezzy Echavez home"><span class="brand-mark" aria-hidden="true">M<span>E</span></span><span class="brand-copy"><strong>Mezzy Echavez</strong><small>builder · learner · curious</small></span></a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-nav" aria-label="Open navigation"><span></span><span></span></button>
+    <nav class="site-nav" aria-label="Main navigation"><ul id="primary-nav"><li><a href="index.html">Home</a></li><li><a href="about.html">About</a></li><li><a href="skills.html">Skills</a></li><li><a href="projects.html">Projects</a></li><li><a href="resume.html">Resume</a></li><li><button class="theme-toggle" type="button" aria-label="Switch to light mode" aria-pressed="false"><span class="theme-icon" aria-hidden="true">◐</span><span data-theme-label>Light</span></button></li><li><a class="nav-cta" href="contact.html" aria-current="page">Contact <span aria-hidden="true">↗</span></a></li></ul></nav>
+  </div></header>
+
+  <main id="main" class="page-main inner-main contact-main">
+    <div class="page-heading shell reveal"><div><p class="eyebrow">CONTACT <span class="eyebrow-line"></span> SAY HELLO</p><h1>Get in <em>touch</em><span class="period-dot">.</span></h1></div><p class="heading-aside">Have a question, an idea, or an opportunity? Write to me here or reach me on any channel.</p></div>
+    <section class="contact-layout shell">
+      <aside class="contact-sidebar panel reveal"><p class="eyebrow">FIND ME</p><h2>Let’s connect.</h2><p class="contact-intro">Open to internships, collaborations, and freelance web work.</p>
+        <div class="contact-method"><span class="method-symbol" aria-hidden="true">@</span><div><span class="method-label">EMAIL · CLICK TO COPY</span><a href="mailto:mezzyechavez637@gmail.com" data-email-link>mezzyechavez637@gmail.com</a></div><button class="copy-email" type="button" data-copy-email aria-label="Copy email address">⎘</button></div>
+        <div class="social-links"><a href="https://github.com/mezzyechavez637-design" target="_blank" rel="noreferrer"><span class="social-mark" aria-hidden="true">g</span><span><small>GITHUB</small><b>mezzyechavez637-design</b></span><span aria-hidden="true">↗</span></a><a href="https://www.facebook.com/mezzie.echavez" target="_blank" rel="noreferrer"><span class="social-mark social-mark-f" aria-hidden="true">f</span><span><small>FACEBOOK</small><b>Mezzy Echavez</b></span><span aria-hidden="true">↗</span></a></div>
+        <p id="contact-feedback" class="contact-feedback" aria-live="polite">Your draft stays in this browser while you type.</p>
+      </aside>
+      <div class="contact-form-panel panel reveal"><div class="form-heading"><div><p class="eyebrow">WRITE A MESSAGE</p><h2>How can I help?</h2></div></div>
+        <form id="contact-form" novalidate>
+          <div class="form-row">
+            <div class="field"><label for="contact-name">Name <span class="req" aria-hidden="true">*</span></label><input id="contact-name" name="name" autocomplete="name" required maxlength="80" placeholder="Your name" aria-describedby="contact-name-error"><small class="field-error" id="contact-name-error"></small></div>
+            <div class="field"><label for="contact-email">Email <span class="req" aria-hidden="true">*</span></label><input id="contact-email" name="email" type="email" autocomplete="email" required maxlength="120" placeholder="you@example.com" aria-describedby="contact-email-error"><small class="field-error" id="contact-email-error"></small></div>
+          </div>
+          <div class="field"><label for="contact-subject">Subject <small>(optional)</small></label><input id="contact-subject" name="subject" maxlength="120" placeholder="A project, an opportunity…"></div>
+          <div class="field"><label for="contact-message">Message <span class="req" aria-hidden="true">*</span></label><textarea id="contact-message" name="message" required minlength="10" maxlength="3000" rows="5" placeholder="Tell me a bit about it…" aria-describedby="contact-message-error"></textarea>
+            <div class="field-foot"><small class="field-error" id="contact-message-error"></small><span class="message-count"><span id="message-length">0</span> / 3000 · 10 minimum</span></div></div>
+          <div class="form-actions"><button class="button button-dark" type="submit">Send it <span aria-hidden="true">↗</span></button><button class="text-button" id="clear-contact" type="button">Clear draft <span aria-hidden="true">↺</span></button></div>
+          <p class="form-hint">This opens your email app with the note prepared — the site does not send or store messages. <noscript>Email directly at <a href="mailto:mezzyechavez637@gmail.com">mezzyechavez637@gmail.com</a>.</noscript></p>
+          <p class="sr-only" id="form-status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+</body>
+</html>
